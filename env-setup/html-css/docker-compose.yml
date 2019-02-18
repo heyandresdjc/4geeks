@@ -1,0 +1,10 @@
+# docker run -d -p 80:80 webserver-image:v1
+version: "3"
+
+services:
+  webpage:
+    build: .
+    ports:
+      - 3000:80
+    volumes:
+      - .:/usr/share/nginx/html
