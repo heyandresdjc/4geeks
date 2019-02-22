@@ -34,7 +34,6 @@ function FilteringList(arr, filterItem) {
             new_list_of_names.push(element);
         }
     });
-
     return new_list_of_names;
 }
 

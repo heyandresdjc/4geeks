@@ -7,8 +7,8 @@ king_of_list = [
     [1,2,3,4,5,6,7,8,9,10,11,23,45,67,88,99,87,66,55,4,33,3]
 ]
 
-// // new list you are creating from the king_of_list
-// new_king = []
+// new list you are creating from the king_of_list
+new_king = []
 
 // loop each list separtly
 let new_kin = king_of_list.forEach(item => {
@@ -35,28 +35,3 @@ let king_kunta = king_of_list.map(
     }
 )
 console.log(king_kunta)
-// now king_kunta and king_of_list have the same values yet they are two different arrays of arrays
-
-// function print_index(arr) {
-//     for (let i = 0; i < arr.length; i++) {
-//         console.log(i)
-//     }
-// }
-
-// print_index(fruits);
-
-// function print_item_in_list(arr) {
-//     for (let i = 0; i < arr.length; i++) {
-//         console.log(arr[i])
-//     }
-// }
-
-// print_item_in_list(fruits);
-
-// function for_each(arr) {
-//     arr.forEach(item => {
-//         console.log(item)
-//     });
-// }
-
-// for_each(fruits);
