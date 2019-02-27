@@ -180,7 +180,7 @@ console.log(monthStats(todos, 1));
 
 // Test for the functions
 test_todo = []
-for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 26; i++) {
   let month = Math.floor(Math.random() * 12)+1;
   let day = Math.floor(Math.random() * 31)+1;
   let year = 2019;
@@ -203,5 +203,6 @@ for (let i = 1; i < 101; i++) {
   };
   test_todo.push(new_todo)
 }
+console.log(test_todo)
 console.log(test_todo.length)
 console.log(monthStats(test_todo, 2))
