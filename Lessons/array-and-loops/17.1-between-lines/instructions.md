@@ -1,9 +1,9 @@
 # Read between the line
 
-If you are a smart you know people don't always mean what they say and when you have 100+ a day to deal with a smart filter for you email but since you use gmail you need to do it in javascript, luckyly you found a plugin the provides you and array with the emails as objects all we are going to focus on is the subject line
+If you are a smart you know people don't always mean what they say and when you have 100+ emails a day to read a smart filter and organizer is needed for your emails but since you use gmail you need to do it in javascript, luckily you found a plugin the provides you and array with the emails as objects all we are going to focus on is the subject object key.
 
 ## Instructions
-1. Create a function called `EmailCounter`
+1. Use the `for ... in ...` loop
 
     - if the subject has the work `meeting` you will increase the meeting counter.
 

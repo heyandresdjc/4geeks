@@ -1,4 +1,4 @@
-# Divide and Concquer
+# Divide and Conquer
 
 Well hello there adventurer, if you have made it this far you must be amoung the select few. As a favor to you please sort out your item you have for sale and diide them into their kind, ... aaannd scene thanks for the help as a small game development company wwe all have to wear many hats my backend guy said he can connect the inventory to the website and app we are co-developing but he is tied up with the database could you take care of the web client and create a javascript the will return 2 arrays one with item we want to sell and valueble item we don't want to sell.
 

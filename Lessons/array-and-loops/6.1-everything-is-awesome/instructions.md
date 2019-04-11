@@ -21,4 +21,6 @@ myArray.forEach(
 ```
 
 ## Instructions
-- use the `forEach` loop to find all the Zeros in this array and replace it with the string `"Yahoo"` index number
+1. Create a function called `ZerosToYahoos()`
+1. Pass a single parametter to the this function.
+1. Use the `forEach` loop to find all the Zeros in this array and replace it with the string `"Yahoo"` index number

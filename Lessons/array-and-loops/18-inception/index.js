@@ -55,16 +55,14 @@ let new_g = inception_team.map(obj => {
     )
 });
 
-const Translator = (arr) =>{
-    let translated = arr.map(obj => {
-        let trans_name = binaryToString(obj.name);
-        let trans_job = binaryToString(obj.job);
-        return { name: trans_name, job: trans_job }
-    })
+const Translator = (word) =>{
+    let translated = binaryToString(word)
     return translated
 }
 
-console.log(Translator(new_g));
+new_g.map(element => {
+    Translator(element)
+})
 
 let nedd_translate = [
     {

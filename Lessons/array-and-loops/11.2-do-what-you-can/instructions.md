@@ -12,7 +12,7 @@ do {
     console.log(i)
     // increase the i value
     i++
-    // evaluate the sc
+    // evaluate the start value
 } while (i < 5);
 ```
 

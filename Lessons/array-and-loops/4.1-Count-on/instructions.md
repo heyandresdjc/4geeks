@@ -14,4 +14,10 @@ for(let index = 0; index < myArray.length; index++){
 
 ## Instructions
 
-- Loop the given array and console log an array with only arrays
+- Loop the given array
+- Push the arraus found to an new array called `hello`
+- Console log the variable `hello`
+
+## Hints
+
+[References](https://www.w3schools.com/jsref/jsref_isarray.asp)

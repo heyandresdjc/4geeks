@@ -8,7 +8,37 @@ let inventory = [
         name:"phoenix down",
         value: 75,
         type: "recovery item"
-    }
+    },
+    {
+        name: "Lead Sword",
+        value: 35,
+        type: "weapon"
+    },
+    {
+        name:"phoenix down",
+        value: 75,
+        type: "recovery item"
+    },
+    {
+        name: "Lead Sword",
+        value: 35,
+        type: "weapon"
+    },
+    {
+        name:"phoenix down",
+        value: 75,
+        type: "recovery item"
+    },
+    {
+        name: "Lead Sword",
+        value: 35,
+        type: "weapon"
+    },
+    {
+        name:"phoenix down",
+        value: 75,
+        type: "recovery item"
+    },
 ]
 const Divide = (arr) => {
     for_sale = []

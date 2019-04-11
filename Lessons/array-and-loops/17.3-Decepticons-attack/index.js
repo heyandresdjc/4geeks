@@ -54,14 +54,13 @@ const EmailAPI = (num_of_emails) => {
     return emails
 }
 
-let emails = EmailAPI(1000);
+let emails = EmailAPI(50);
+console.log(emails)
 let decepticon_email_count = 0
-emails.forEach((email, index) => {
+emails.map( email => {
     if (email.body.search("decepticon")> 0) {
-        console.log(index+1);
-        console.log(email.body)
         decepticon_email_count++
     }
 });
 
-console.log(decepticon_email_count)
+console.log(decepticon_email_count);

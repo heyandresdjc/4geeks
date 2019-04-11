@@ -10,8 +10,8 @@ const randomZerosAndOnes = (num) => {
     return picks;
 }
 
-let myArray = randomZerosAndOnes(100)
-
+let myArray = randomZerosAndOnes(10)
+console.log(myArray)
 const ZerosToYahoos = (arr) => {
     let return_list = []
     arr.forEach((item,index,array) => {
@@ -25,4 +25,4 @@ const ZerosToYahoos = (arr) => {
     return return_list
 }
 
-console.log(ZerosToYahoos(myArray));
+// console.log(ZerosToYahoos(myArray));

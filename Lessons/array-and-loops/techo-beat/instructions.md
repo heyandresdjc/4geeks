@@ -22,5 +22,14 @@ You are working with a DJ and he needs a program that can create a lyrics for hi
 ## Return:
 A string which should be comprice of 'Boom' or'Drop the base'
 
+Excepted Output:
+```sh
+Boom Boom Drop the base Drop the base Boom Boom Boom
+Boom Boom Drop the base Drop the base Drop the base !!!Break the base!!! Boom Boom Boom
+Boom Boom Boom
+Drop the base Boom Drop the base
+Drop the base Drop the base Drop the base !!!Break the base!!!
+```
+
 ## Hints
 Remember to use helper variables
