@@ -1,3 +1,5 @@
+const test = require("../../../tests/Test");
+
 function stairs(num_of_steps) {
     let flight_of_stairs=""
     for (let index = 1; index < num_of_steps; index++) {
@@ -7,5 +9,6 @@ function stairs(num_of_steps) {
     return flight_of_stairs
 }
 
-
-console.log(stairs(5))
+console.log(stairs(5));
+// test
+console.log(test.isArrow(stairs))
